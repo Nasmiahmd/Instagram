@@ -1,0 +1,61 @@
+.w-15{
+    width: 15%;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.w-40{
+    width: 40%;
+}
+.logo-text{
+    width: 100px;
+}
+
+.logo-icon{
+    width: 20px
+}
+
+.bi {
+    margin-right: 10px;
+}
+
+.story{
+    height: 90px;
+}
+
+.dp{
+    height: 30px;
+}
+
+.dp-suggestion{
+    height: 45px;
+}
+
+.dp-story{
+    height: 80px;
+    border: 3px solid black;
+}
+.post{
+    width: 500px;
+    height: 500px;
+}
+
+.suggestion{
+    width: 60%;
+}
+
+.ms-10{
+    margin-left: 96px;
+}
+
+.story-gradient{
+    width: 87px;
+    height: 87px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #ff00ff, #ff6600, #ffcc00);
+}

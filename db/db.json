@@ -1,0 +1,103 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "db/assets/profile_pic_1.jpg"
+      },
+      "image": "db/assets/pic_1.jpg",
+      "caption": "Beautiful sunset 🌇 #Nature",
+      "likes": 120,
+      "comments": [
+        { "user": "alice_wonder", "comment": "Wow! Amazing shot! 📸" },
+        { "user": "mark_92", "comment": "Where is this place?" }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "travel_bug",
+        "profile_pic": "db/assets/profile_pic_2.jpg"
+      },
+      "image": "db/assets/pic_2.jpg",
+      "caption": "Exploring the hidden gems of Italy 🇮🇹",
+      "likes": 450,
+      "comments": [
+        { "user": "pizza_lover", "comment": "The food there is incredible!" },
+        { "user": "globetrotter", "comment": "Adding this to my bucket list." }
+      ],
+      "timestamp": "2025-02-12T09:15:00Z"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "chef_mario",
+        "profile_pic": "db/assets/profile_pic_3.jpg"
+      },
+      "image": "db/assets/pic_3.jpg",
+      "caption": "Fresh salad for a healthy start! 🥗",
+      "likes": 85,
+      "comments": [{ "user": "veggie_vibe", "comment": "Looks so fresh!" }],
+      "timestamp": "2025-02-13T12:00:00Z"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "john_doe",
+    "profile_pic": "db/assets/profile_pic_1.jpg"
+  },
+  "suggestions": [
+    {
+      "id": 101,
+      "username": "john_doe",
+      "profile_pic": "db/assets/profile_pic_1.jpg"
+    },
+    {
+      "id": 101,
+      "username": "john_doe",
+      "profile_pic": "db/assets/profile_pic_1.jpg"
+    },
+    {
+      "id": 101,
+      "username": "jongy_doe",
+      "profile_pic": "db/assets/profile_pic_1.jpg"
+    }
+  ],
+  "story": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "db/assets/profile_pic_1.jpg"
+      },
+      "image": "db/assets/pic_1.jpg",
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "travel_bug",
+        "profile_pic": "db/assets/profile_pic_2.jpg"
+      },
+      "image": "db/assets/pic_2.jpg",
+      "timestamp": "2025-02-12T09:15:00Z"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "chef_mario",
+        "profile_pic": "db/assets/profile_pic_3.jpg"
+      },
+      "image": "db/assets/pic_3.jpg",
+      "timestamp": "2025-02-13T12:00:00Z"
+    }
+  ]
+}
